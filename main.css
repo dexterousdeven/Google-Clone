@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Code Starts Here*/
+
+.rightbanner {
+	display: block;
+	padding-right: 20px;
+	margin-top: 15px;
+	float: right;
+	font-size: 13px;
+	font-family: Arial;
+}
+
+.gmail, .images {
+	margin-left: 10px;
+}
+
+.grid {
+	margin-left: 10px;
+	vertical-align: middle;
+	display: inline-block;
+	opacity: .5;
+}
+
+.grid:hover {
+	opacity: 1;
+}
+
+.signin {
+	margin-left: 10px;
+	border-radius: 2px;
+	color: white;
+	background-color: #4D90FE;
+	font-weight: bold;
+	padding: 8px 13px;
+	margin-right: 10px;
+}
+
+.signin:hover {
+	text-decoration: none;
+}
+
+#middlebannerspace {
+	height: 200px;
+	width: auto;
+}
+
+#googlelogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:100px;
+}
+
+.buttons {
+	width: 250px;
+	margin: 15px auto 15px auto;
+}
+
+.buttons a {
+	font-weight: bold;
+	border: 1px solid #BDBDBD;
+	padding: 7px 9px;
+	border-radius: 2px;
+	background-color: #F5F5F5; 
+	font-size: 11px;
+}
+
+.one {
+	margin-right: 12px;
+}
+
+.buttons a:hover {
+	text-decoration: none;
+	box-shadow: 1px 1px 1px #BDBDBD;
+	border: 1px solid #BDBDBD;
+}
+
+.google {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+footer {
+	position: fixed;
+	display: inline-block;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	background-color: #F5F5F5;
+	color: #666666;
+}
+
+.footerleft {
+	float: left;
+	margin-left: 10px;
+	margin-top: 13px;
+}
+
+.footerright {
+	float: right;
+	margin-right: 10px;
+	margin-top: 13px;
+}
+
+input {
+	font: 14px Arial;
+	border: 1px solid #c6c6cc;
+	width: 550px;
+	height: 25px;
+	background-image: url("https://db.tt/F58EYhoC");
+	background-repeat: no-repeat;
+	background-position: 99% 50%;
+	background-size: 24px;
+}
+
+input:hover {
+	border: 1px solid #666666;
+}
+
+input:focus {
+	color: #4D90FE;
+} 
+
+form {
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12.5px;
+	color: #666666;
+}
+
+a:hover {
+	text-decoration: underline;
+}
